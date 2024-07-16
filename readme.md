@@ -1,5 +1,32 @@
 # Neural Network From Scratch
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Importing Libraries](#importing-libraries)
+3. [Creating a One Hidden Layer Network](#creating-a-one-hidden-layer-network)
+    - [Weight Initialization](#weight-initialization)
+    - [Activation Functions](#activation-functions)
+    - [Forward Pass](#forward-pass)
+4. [Deep Neural Network](#deep-neural-network)
+    - [Weight Initialization for Deep Networks](#weight-initialization-for-deep-networks)
+    - [Forward Pass in Deep Layers](#forward-pass-in-deep-layers)
+5. [Cost Function](#cost-function)
+6. [Neural Network Class Implementation](#neural-network-class-implementation)
+7. [Backpropagation](#backpropagation)
+    - [Gradient Calculation](#gradient-calculation)
+    - [Backward Pass Function](#backward-pass-function)
+8. [Parameter Update](#parameter-update)
+9. [Training the Neural Network](#training-the-neural-network)
+    - [Dataset Preparation](#dataset-preparation)
+    - [Training Process](#training-process)
+    - [Epoch Loss Plot](#epoch-loss-plot)
+10. [Results and Visualization](#results-and-visualization)
+    - [Actual vs Predicted Plot](#actual-vs-predicted-plot)
+    - [Results at Different Epochs](#results-at-different-epochs)
+11. [Bash Script for Training](#bash-script-for-training)
+12. [References](#references)
+
 In this notebook I will be creating Neural Network from scratch. The approach follows Andrew NG ones.
 
 First I will import the numpy library
